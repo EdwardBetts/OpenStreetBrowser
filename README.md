@@ -65,7 +65,7 @@ File: foo.json
         "12": "(node[highway~'^(motorway_junction)$'];way[highway~'^(motorway|trunk)$'];)",
         "14": "(node[highway~'^(motorway_junction|mini_roundabout|crossing)$'];way[highway~'^(motorway|trunk|primary)$'];)",
         "16": "(node[highway];way[highway];)"
-    }
+    },
     "feature": {
         "style": {
             "color": "{% if tags.highway == 'motorway' %}#ff0000{% elseif tags.highway == 'trunk' %}#ff7f00{% elseif tags.highway == 'primary' %}#ffff00{% else %}#0000ff{% endif %}"
